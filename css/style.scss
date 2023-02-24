@@ -1,0 +1,17 @@
+$colors: (
+  primary: #0a79df,
+  accent: #01cbc6,
+  font: #fff,
+);
+
+$sizes: (
+  fontone: 20px,
+  fontzero: 12px,
+  fonttwo: 20px,
+);
+
+body {
+  background-color: map-get($colors, primary);
+  color: map-get($colors, font);
+  font-size: map-get($sizes, fonttwo);
+}
